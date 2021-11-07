@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:ital,wght@1,300&family=Roboto:ital,wght@1,300&display=swap');
+*{
+    margin: 0 auto;
+}
+.mother{
+    width: 100%;
+    height: 100%;
+    
+}
+.box_wraper{
+    width: 100%;
+    height: 600px;
+    background: url(./img/cosmos.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+.box_logo h2{
+    color: white;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.box_wraper_1{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid white;
+    margin-left: 150px;
+    
+}
+.box_menu a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: white;
+    font-size: 20px;
+    transition: all 1s;
+}
+.box_wraper_2{
+    width:80%;
+    height: 350px;
+    text-align: center;
+    padding: 200px 0;
+}
+.text h2{
+    color: white;
+    font-size: 35px;
+
+}
+.text p{
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+}
+.knopka a{
+    border: 2px solid white;
+    padding: 10px 10px;
+    width: 130px;
+    height: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.329);
+}
+.knopka a:hover{
+    background-color: rgba(255, 127, 80, 0.637);
+    color: black;
+    transition: all 1s;
+}
+.knopka{
+    margin-top: 20px;
+}
+.box_menu a:hover{
+    font-size: 25px;
+}
+.box_content{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-position: center;
+    text-align: center;
+    
+}
+.box_content > h1{
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 2px solid black;
+    width: 250px;
+}
+.box_content > p{
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.icons_text{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media screen and(max-width: 667px) {
+    .icons_text{
+        height: 600px;
+    }
+
+}
+.icon1{
+    width: 25%;
+    height: 250px;
+
+}
+.icon1 > h3{
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.icon1 > p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.icon2{
+    width: 25%;
+    height: 250px
+}
+.icon2 > h3{
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.icon2 > p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.icon3{
+    width: 25%;
+    height: 250px
+}
+.icon3 > h3{
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.icon3 > p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.fa-code{
+    border: 1px solid black;
+    border-radius: 100%;
+    font-size: 35px;
+    padding: 15px 10px;
+    color:#070c2e;
+}
+.fa-life-ring{
+    border: 1px solid black;
+    border-radius: 100%;
+    font-size: 35px;
+    padding: 15px 15px;
+    color:#070c2e;
+}
+.fa-font{
+    border: 1px solid black;
+    border-radius: 100%;
+    font-size: 35px;
+    padding: 15px 17px;
+    color: #070c2e;
+}
+.box_foother{
+    width: 100%;
+    height: 300px;
+    background-color:#070c2e;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.fa-instagram{
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 10px 14px;
+    color: white;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+.box_foother > p{
+    color: white;
+    font-size: 15px;
+}
